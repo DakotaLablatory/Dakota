@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* main */
+
+.index_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.index_about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.me_img{
+    width: 30%;
+}
+.me_texts{
+    text-align: center;
+}
+
+/*ashdahsdhashdhashdahsdhasdhahsdhashdahsdhahsdhasdhahsdhasdhahsdhasdhashdhasdhashdhasdhashdahsdhasdhashdahsd*/
+
+.slider {
+    width: 90%;
+    margin: 0 auto;
+}
+.slider img {
+    width:60vw;
+    height:auto;
+}
+.slider .slick-slide {
+  transform: scale(0.8);
+  transition: all .5s;
+  opacity: 0.5;
+}
+.slider .slick-slide.slick-center{
+  transform: scale(1);
+  opacity: 1;
+}
+.slick-prev, 
+.slick-next {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    height: 15px;
+    width: 15px;
+}
+.slick-prev {
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+.slick-next {
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+.slick-dots {
+    text-align:center;
+    margin:20px 0 0 0;
+}
+.slick-dots li {
+    display:inline-block;
+  margin:0 5px;
+}
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;
+    height:8px;
+    display:block;
+    border-radius:50%;
+    background:#ccc;
+}
+.slick-dots .slick-active button{
+    background:#333;
+}
+@media screen and (max-width: 768px) {
+
+.index_about{
+    flex-direction: column;
+}
+.me_img{
+    width: 75%;
+}
+.me_texts{
+    width: 75%;
+}
+
+}

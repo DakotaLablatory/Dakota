@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dakota's Lablatory - Contact</title>
+        <link rel="icon" type="image/png" href="" sizes="NaNxNaN" />
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+        <!--css-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/temp.css">
+        <link rel="stylesheet" href="css/splash.css">
+    </head>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='index.html';}"></iframe>
+    <body>
+        <div id="splash">
+        </div>
+        <div class="content-wrapper">
+            <header class="header">
+                <span class="logo">
+                </span>
+                <div class="nav">
+                    <input id="drawer_input" class="drawer_hidden" name="menu" type="checkbox">
+                    <label for="drawer_input" class="drawer_open"><span></span></label>
+                    <nav class="nav_content">
+                        <ul class="nav_list">
+                            <li class="nav_item"><a class="nav_link" href="index.html">Index</a></li>
+                            <li class="nav_item"><a class="nav_link" href="news.html">News</a></li>
+                            <li class="nav_item"><a class="nav_link" href="works.html">Works</a></li>
+                            <li class="nav_item"><a class="nav_link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <h1 class="contact_title">
+                    Contact
+                </h1>
+                <div class="contact-about">
+                    <div class="form-container">
+                        <form method="POST" target="hidden_iframe" onsubmit="submitted=true;" class="c-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8Me6HDhJ3UE8ydKz5jBDnqF9nCzuwhp14jBpmzBLDiY39ZA/formResponse">
+                            <div class="form-name-and-num">
+                                <input class="form-item" id="input-item" type="text" name="entry.950720485" placeholder="Your name*">
+                                <input class="form-item" id="input-item" type="number" name="entry.1081988056" placeholder="Phone number">
+                            </div>
+                            <input class="form-item" id="input-item" type="email" name="entry.1524433910" placeholder="Email*">
+                            <textarea class="form-item" id="input-item" id="textarea" name="entry.1826954621" placeholder="Any messages...*"></textarea>
+                            <button class="form-item" id="sent-button" type="submit" name="submit" class="btn btn-info ">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <nav class="footer_content">
+                    <ul class="footer_list">
+                        <li class="nav_item"><a class="footer_link" target="_blank" href="https://www.youtube.com/@DakotaLikeYou11/featured">Youtube</a></li>
+                        <li class="nav_item"><a class="footer_link" target="_blank" href="https://twitter.com/DakotaLikeYou11">X // Twitter</a></li>
+                        <li class="nav_item"><a class="footer_link" target="_blank" href="https://www.twitch.tv/dakotalikeyou11">Twitch</a></li>
+                    </ul>
+                    <p class="copyright">
+                        © Copyright Dakota's Labratory All Rights Reserved.
+                    </p>
+                </nav>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="scripts/scripts.js"></script>
+    </body>
+</html>

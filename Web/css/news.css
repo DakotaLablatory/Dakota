@@ -1,0 +1,61 @@
+.news_title{
+    margin: 50px;
+    line-height: 1.7;
+    text-align: center;
+    background-color: #eeeeee;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.news_about{
+    margin: 20px;
+}
+.news{
+    display: flex;
+    width: 75%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    /**/
+    animation-name:zoomOutAnime;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+.news:hover{
+    animation-name:zoomInAnime;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+.news_img{
+    width: 50%;
+    border-radius: 10px;
+}
+.news_description{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+/*newsses*/
+.newsses_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.newsses_title{
+    margin: 50px;
+    line-height: 1.7;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.newsses_img{
+    width: 80%;
+    margin: 0 auto;
+}
+.newsses_description{
+    margin: 50px auto;
+    line-height: 1.7;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+@media screen and (max-width: 768px) {
+    
+}
